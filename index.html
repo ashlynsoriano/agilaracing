@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat+Subrayada&display=swap" rel="stylesheet">
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Agila Racing Formula 1 — Official Website</title>
+  <link rel="icon" type="image/x-icon" href="finallogo.png">
+</head>
+
+<body>
+  <!-- Welcome Page -->
+  <section id="agilaheader">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href=""><img src="companyname.png" alt="Company Name" class="companyname"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#teams">TEAM</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cars">CARS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#newsstore">NEWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#newsstore">STORE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#partners">PARTNERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Title Page -->
+    <div class="row container-fluid welcome">
+      <img src="carfront.jpg" class="welcomecar" alt="F1 Image">
+      <div class="welcomemsg">
+        <h1>Agila Racing</h1>
+        <h2>Philippines' first ever Formula 1 team.</h2>
+      </div>
+    </div>
+    <!-- Next Race -->
+    <div class="row nextrace">
+      <div class="col-lg-4 first">
+        <h2>Next Race</h2>
+        <h1 class-"nextracetitle">Singapore Grand Prix</h1>
+      </div>
+      <div class="col-lg-4">
+        <img src="frenchgp.png" class="frenchgp" alt="French Grand Prix">
+      </div>
+      <div class="col-lg-4 third">
+        <div class="row countdown">
+          <iframe src="https://free.timeanddate.com/countdown/i8i58fw7/n5/cf100/cm0/cu4/ct0/cs0/ca0/cr0/ss0/cac000/cpc000/pcfff/tcfff/fn3/fs200/szw320/szh135/tatTime%20left/tac000/tptTime%20since%20Event%20started%20in/tpc000/mac000/mpc000/iso2022-10-02T22:30:00" allowtransparency="true" frameborder="0" width="320" height="135"></iframe>
+
+          <!--<div class="col-4">
+            <h2>Days</h2>
+            <h2 class="countdownnumbers">08</h2>
+          </div>
+          <div class="col-4">
+            <h2>Hours</h2>
+            <h2 class="countdownnumbers">00</h2>
+          </div>
+          <div class="col-4">
+            <h2>Mins</h2>
+            <h2 class="countdownnumbers">45</h2>
+          </div>
+        </div>
+        <button type="button" class="btn btn-dark btn-lg moreinfo">
+          <ion-icon name="chevron-forward-outline"></ion-icon> More Info
+        </button>
+      </div>-->
+
+    </div>
+  </section>
+
+  <!-- Teams -->
+  <section id="teams">
+    <div class="row drivers">
+      <div class="col-lg-12">
+        <h2 class="driverstitle">Drivers</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6 drivercard">
+          <img src="daniel.png" alt="Daniel" class="driverimg">
+        </div>
+        <div class="col-lg-3 col-md-6 drivercard">
+          <h1 class="firstname">Daniel</h1>
+          <h1>Ricciardo</h1>
+          <h2 class="drivernum">#3</h2>
+
+          <button type="button" class="btn btn-outline-light btn-block float-end viewprofile">
+            View Profile <ion-icon name="chevron-forward-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 drivercard">
+          <img src="carlos.png" alt="Carlos" class="driverimg">
+        </div>
+        <div class="col-lg-3 col-md-6 drivercard">
+          <h1 class="firstname">Carlos Jr</h1>
+          <h1>Sainz</h1>
+          <h2 class="drivernum">#55</h2>
+
+          <button type="button" class="btn btn-outline-light btn-block float-end viewprofile">
+            View Profile <ion-icon name="chevron-forward-outline"></ion-icon>
+          </button>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="restteam">
+      <h2 class="teamtitle">Meet the rest of the</h2>
+      <img src="teamlogo.png" class="teamlogo" alt="Team Logo">
+      <button type="button" class="btn btn-dark btn-lg float-end restteambtn">
+        <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+        <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+        <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+      </button>
+    </div>
+
+
+  </section>
+
+  <!-- Cars -->
+  <section id="cars">
+    <h2 class="carstitle">Cars</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="car1.png" alt="First Car" class="carsslide">
+          <h1 class="carname">AGR27</h1>
+          <button type="button" class="btn btn-outline-light btn-block specs">
+            Specs <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+          </button>
+        </div>
+        <div class="carousel-item">
+          <img src="car2.png" alt="Second Car" class="carsslide">
+          <h1 class="carname">AGR04</h1>
+          <button type="button" class="btn btn-outline-light btn-block specs">
+            Specs <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+          </button>
+        </div>
+        <div class="carousel-item">
+          <img src="car3.png" alt="Third Car" class="carsslide">
+          <h1 class="carname">AGR14</h1>
+          <button type="button" class="btn btn-outline-light btn-block specs">
+            Specs <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+          </button>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- News and Store -->
+  <section id="newsstore">
+    <div class="row">
+
+      <div class="col-lg-6 col-md-12">
+        <h2 class="latestnews">Latest News</h2>
+        <button type="button" class="btn btn-lg float-end more">
+          More
+          <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+        </button>
+        <div id="carouselExampleControlsnews" class="carousel slide news" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="news1.png" alt="First News" class="newsslide">
+              <h2 class="newstitle">LIVE: F1 2022 Hungarian Grand Prix</h2></h2>
+              <button type="button" class="btn btn-outline-dark btn-block readmore">
+                Read More <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+              </button>
+            </div>
+            <div class="carousel-item">
+              <img src="news2.png" alt="Second news" class="newsslide">
+              <h2 class="newstitle">Agila's Newest Driver is Ricciardo</h2></h2>
+              <button type="button" class="btn btn-outline-dark btn-block readmore">
+                Read More <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+              </button>
+            </div>
+            <div class="carousel-item">
+              <img src="news3.png" alt="Third news" class="newsslide">
+              <h2 class="newstitle">First Ever Win for Agila at Monaco</h2>
+              <button type="button" class="btn btn-outline-dark btn-block readmore">
+                Read More <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+              </button>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsnews" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsnews" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12">
+        <h2 class="shop">Shop</h2>
+        <button type="button" class="btn btn-lg float-end more">
+          More
+          <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+        </button>
+        <div id="carouselExampleControlsshop" class="carousel slide news" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="merch1.png" alt="First Merch" class="merchslide">
+              <button type="button" class="btn btn-outline-dark btn-block orderbtn">
+                Order <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+              </button>
+            </div>
+            <div class="carousel-item">
+              <img src="merch2.png" alt="Second Merch" class="merchslide">
+              <button type="button" class="btn btn-outline-dark btn-block orderbtn">
+                Order <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+              </button>
+            </div>
+            <div class="carousel-item">
+              <img src="merch3.png" alt="Third news" class="merchslide">
+              <button type="button" class="btn btn-outline-dark btn-block orderbtn">
+                Order <ion-icon name="chevron-forward-outline" class="arrowicon"></ion-icon>
+              </button>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsshop" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsshop" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section id="partners">
+    <h1 class="partnerstitle">OFFICIAL PARTNERS</h1>
+    <div class="row partnersrow">
+      <div class="col-lg-3">
+        <img src="part1.png" alt="Partner 1" class="partnerlogo">
+      </div>
+      <div class="col-lg-3">
+        <img src="part2.png" alt="Partner 2" class="partnerlogo">
+      </div>
+      <div class="col-lg-3">
+        <img src="part3.png" alt="Partner 3" class="partnerlogo">
+      </div>
+      <div class="col-lg-3">
+        <img src="part4.png" alt="Partner 4" class="partnerlogo">
+      </div>
+    </div>
+    <div class="row partnersrow">
+      <div class="col-lg-4">
+        <img src="part5.png" alt="Partner 5" class="partnerlogo">
+      </div>
+      <div class="col-lg-4">
+        <img src="part6.png" alt="Partner 6" class="partnerlogo">
+      </div>
+      <div class="col-lg-4">
+        <img src="part7.png" alt="Partner 7" class="partnerlogo">
+      </div>
+    </div>
+  </section>
+
+<!-- Contact -->
+<section id="contact">
+  <ion-icon class="contacticons" name="mail-outline" size="large"></ion-icon>
+  <ion-icon class="contacticons" name="logo-facebook" size="large"></ion-icon>
+  <ion-icon class="contacticons" name="logo-twitter" size="large"></ion-icon>
+  <ion-icon class="contacticons" name="logo-instagram" size="large"></ion-icon>
+  <h2 class="credit">© 2022 Agila Racing Ltd</h2>
+</section>
+
+  <!-- Ion Icons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Boostrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+</body>
+
+
+</html>

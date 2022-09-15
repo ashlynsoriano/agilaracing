@@ -1,0 +1,256 @@
+/* Main Stuff */
+h1 {
+  font-size: 500%;
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+h2 {
+  font-size: 250%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Welcome Page */
+.companyname {
+  height: 40px;
+  margin: 10% 50%;
+}
+
+#navbarSupportedContent {
+  margin-right: 3%;
+}
+
+.navbar-toggler{
+  margin-right: 5%;
+}
+
+.nav-link{
+  margin: 1% auto 1% 5%;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar .navbar-nav > li > a:hover{
+  color:#b40505;
+}
+
+.welcome {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.welcomemsg {
+  position: absolute;
+  padding-top: 30%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+}
+
+.welcomecar {
+  padding: 0;
+}
+
+/* Next Race */
+.nextrace{
+  margin:0;
+  padding: 5% 10%;
+  background-color: white;
+  color: black;
+  font-size: 60%;
+}
+
+.frenchgp{
+  position: relative;
+  width: 100%;
+}
+
+.first{
+  padding-left: 0;
+}
+
+.third{
+  text-align: center;
+}
+
+.countdown{
+  margin-top: 2%;
+}
+
+.countdownnumbers{
+  font-weight:900;
+}
+
+.moreinfo{
+  margin-top: 2%;
+}
+
+/* Teams */
+
+.drivers{
+  text-align: center;
+  margin: 0;
+  background-color: #08040b;
+  color: white;
+  padding: 5% 5%;
+  font-size: 60%;
+}
+
+.driverstitle{
+  font-size: 500%;
+  margin-bottom: 5%;
+}
+
+.drivercard{
+  text-align: left;
+}
+
+.driverimg{
+  width: 150%;
+}
+
+.firstname{
+  font-size: 250%;
+  margin-top: 20%;
+  margin-bottom: 0;
+}
+.drivernum{
+  display: inline-block;
+}
+.viewprofile{
+  margin-top: 80%;
+}
+
+.restteam{
+  background-color: white;
+  padding: 3% 10%;
+}
+
+.teamtitle{
+display: inline-block;
+margin: 0;
+}
+
+.teamlogo{
+display: inline-block;
+width:15%;
+margin: 0 0 1% 1%;
+}
+
+.arrowicon{
+float:right;
+margin-top:5%;
+}
+
+.restteambtn{
+  margin-top: 2%;
+}
+
+/* Cars */
+#cars{
+  background-color: #08040b;
+  color: white;
+  text-align: center;
+  padding: 5% 10%;
+}
+
+.carsslide{
+  width:80%;
+}
+
+.carname{
+  margin:0;
+}
+.specs{
+margin-top:2%;
+}
+
+/* News and Store */
+#newsstore{
+  background-color: white;
+  color: black;
+  padding: 5% 10%;
+}
+
+.latestnews{
+  display: inline-block;
+}
+.news{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.newsslide{
+  width:80%;
+}
+
+.newstitle{
+  text-align: left;
+  font-size: 150%;
+  margin:5% 10%;
+}
+
+.shop{
+  display: inline-block;
+  text-align:center;
+}
+
+.merchslide{
+  width:55%;
+}
+
+.orderbtn{
+  display: block;
+  margin: 15% auto 0 auto;
+}
+
+/* Partners */
+
+#partners{
+  background-color: #08040b;
+  text-align: center;
+  padding: 5% 10%;
+  color: white;
+}
+
+.partnerlogo{
+  width: 100px;
+  margin: 10% auto;
+}
+
+.partnerstitle{
+  font-size: 250%;
+}
+
+/* Contact */
+
+#contact{
+  background-color: white;
+  color: black;
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.contacticons{
+    margin: 2% 1%;
+}
+.credit{
+  font-size: 150%;
+  color: gray;
+}
+
+/* Buttons */
+
+.btn{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn:hover{
+  background: white;
+  background-image: -webkit-linear-gradient(top, white);
+  background-image: -moz-linear-gradient(top, white);
+  background-image: -ms-linear-gradient(top, white);
+  background-image: -o-linear-gradient(top, white);
+  background-image: linear-gradient(to bottom, white);
+  text-decoration: none;
+  color: black;
+}
